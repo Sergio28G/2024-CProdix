@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Training Preferences</title>
+</head>
+<body>
+
+    <div class="survey">
+
+        <h1 id="title">Your Opinion Counts: Gym Training Preferences Survey</h1>
+
+        <p id="description">In our team, we are interested in learning more about your excercise rutine and training preferences. <br>Please take a moment to complete this survey and help us understand what type of training you do or if your engage in any form of physical excercise.</p>
+
+        <form id="survey-form" action="" method="post">
+
+            <fieldset>
+
+                <label for="name">Name: <input class="porcent" id="name" type="text" placeholder="Enter your name" required /></label>
+
+                <label for="age">Age: <input class="porcent" id="age" type="number" min="14" max="100" placeholder="Enter your age" required /></label>
+                
+                <label for="email">Email: <input class="porcent" id="email" type="email" placeholder="Enter your email" required /></label>
+                
+                <label>How often do you go to the gym?</label>
+                    <label><input name="assist" type="radio" checked /> 2 to 3 times a week</label> 
+                    <label><input name="assist" type="radio" /> 4 to 6 times a week</label>
+                    <label><input name="assist" type="radio" /> I never go</label>
+                
+                <label>What is your main goal when going to the gym?</label>
+                    <label><input name="aim" type="checkbox" />lose weight</label>
+                    <label><input name="aim" type="checkbox" />build muscle</label>
+                    <label><input name="aim" type="checkbox" />Maintain cardiovascular health</label>
+
+                <label>What types of excercises do you prefer to do at the gym?</label>
+                    <select id="dropdown" class="porcent">
+                        <option value="">Select</option>
+                        <option value="1">Strength training</option>                        
+                        <option value="2">Cardio</option>
+                        <option value="3">Group classes</option>
+                    </select>  
+
+                    <label>How much time usually to dedicate to your training at the gym by sesion?</label>
+                    <select id="dropdown2" class="porcent">
+                        <option value="">Select</option>
+                        <option value="1">15 minutes</option>                        
+                        <option value="2">30 minutes</option>
+                        <option value="3">1 hour</option>
+                        <option value="4">2 hour</option>
+                    </select>
+
+                    <label>Have you used additional services at the gym, such as personal trainers, private classes, or spa services?</label>
+                    <label><input name="services-additional" type="radio" checked />Si</label>
+                    <label><input name="services-additional" type="radio" />No</label>
+
+                    <label>What factor influence your choice of a gym?</label>
+                    <select id="dropdown3" class="porcent">
+                        <option value="">Select</option>
+                        <option value="1">Location</option>                        
+                        <option value="2">Opening hours</option>
+                        <option value="3">Variety of equipment</option>
+                        <option value="4">Prices</option>
+                    </select>
+
+            </fieldset>
+
+            <input id="submit" type="submit" />
+
+        </form>
+
+    </div>
+</body>
+</html>
