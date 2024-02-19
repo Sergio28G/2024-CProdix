@@ -1,39 +1,111 @@
-body {
-    height: 100vh;    
-    background: linear-gradient(rgb(158, 154, 154), rgb(34, 36, 36));
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body {  
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.bhmpics.com/downloads/ultra-hd-gym-wallpaper-4k-Wallpapers/32.gym_dumbbells_inventory_219519_3840x2400.jpg);
+    background-size: cover;
+
 }
 
 .survey {
     width: 80%;
-    min-width: 300px;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 3%;
+    border-radius: 10px;
+    font-family: Cursive;
 
     color: white;
-    background-color: rgba(52, 51, 54, 0.9)
+    background-color: rgba(80, 78, 78, 0.9)
 }
 
 h1  {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    line-height:40px;
 
     margin: 0 auto;
+}
+
+p {
+    font-size: 20px;
+}
+
+fieldset {
+    border: none;
+    font-size: 18px;
+}
+
+.space {
+    margin-top: 25px;
+}
+
+hr {
+    margin-bottom: -10px;
 }
 
 input, label {
     display: block;
 }
 
+input, textarea, option, select {
+    font-family: cursive;
+    font-size: 15px;
+    height: 2rem;
+
+    color: white;
+    background-color: rgb(26, 23, 1);
+
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
 input[type="radio"], input[type="checkbox"] {
     display: inline;
+    vertical-align: -9px;
 }
 
 input[type="submit"] {
     margin: 0 auto;
+    margin-top: 30px;
+
+    width: 50%;
+    height: 50px;
+
+    font-size: x-large;
+
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(22, 124, 240);
+}
+
+input[type="range"] {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.width {
+    width: 80%;
+}
+
+textarea {
+    margin: 0 auto;
+    width: 80%;
+    height: 70px;
+    display: block;
     margin-top: 10px;
 }
 
-.porcent {
-    width: 80%;
+input, textarea, select:focus {
+    outline-color: white;
 }
+
+select {
+    margin-top: 10px;
+}
+
+.inline {
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+}
+
+
+
